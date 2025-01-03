@@ -41,7 +41,9 @@ def lambda_handler(event, context):
 ![Screen Shot 2025-01-03 at 1 02 31 AM](https://github.com/user-attachments/assets/993ea484-7d94-4b1e-9951-742680f269e2)
 
 
-
+7) Go back to EC2-instance, stop the instance, then you should to get a notification in your email that intance was stopped:
+   
+![Screen Shot 2025-01-03 at 1 13 56 AM](https://github.com/user-attachments/assets/c85d08a0-a80e-4c8f-bcf6-78cad0a51699)
 
 
 
