@@ -13,17 +13,18 @@ We will create one instance and stop it, after couple of seconds you will get an
 
 
 2) Next step is to create SNS service, where you need to add your email address to get notifications in case one of instances stops: 
+<img width="1214" alt="Second" src="https://github.com/user-attachments/assets/105ef23c-13f8-4407-ae8f-b4c039882351" />
 
 
  
 3) After saving your email address you will get a message to confirm it:
+<img width="573" alt="third" src="https://github.com/user-attachments/assets/9917ab0d-a4c3-4b96-8530-000855b587a4" />
 
 
 
 4) After confirming, we need to create IAM policy and role then attach to Lambda function:
+<img width="792" alt="forth" src="https://github.com/user-attachments/assets/a171d72e-9e2b-4e26-9fa9-de4b0bbcdad1" />
 
-
-![Screen Shot 2025-01-02 at 11 51 24 PM](https://github.com/user-attachments/assets/457e4c9d-bbe7-4181-a386-333e63282265)
 
 
 5) Next step is to create a Lambda function and attach recently created ec2-stop role:
