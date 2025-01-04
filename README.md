@@ -1,7 +1,7 @@
 # Send an email notification if a particular instance is stopped.
 ## We will use Lambda service which will trigger CloudWatch events and send a message in case on of the instances stopped. 
 ## You will see in this example the steps how to configure it.
-For that we need to create an EC2 instance, SNS topic, IAM policy, Lambda function and Cloud watch events. 
+### For that we need to create an EC2 instance, SNS topic, IAM policy, Lambda function and Cloud watch events. 
 There are two options to get a notifications: 1) To get for all stopped instances 2) To get a notification for the particular instance.
 We will create one instance and stop it, after couple of seconds you will get an email about it. 
 
