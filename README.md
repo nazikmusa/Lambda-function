@@ -44,6 +44,25 @@ def   lambda_handler(event, context):
       client.publish(TopicArn=topic_arn,Message=message)
 
 
+![Screen Shot 2025-01-09 at 12 24 00 PM](https://github.com/user-attachments/assets/3c02b563-5045-46ef-82ee-ed93bf2cb06a)
+
+It should to look like on screenshot. 
+Next step is go to the SNS > ec2-stop > copy ARN and paste in topic_arn = '  '
+In my case it looks like this
+
+
+![Screen Shot 2025-01-09 at 12 26 23 PM](https://github.com/user-attachments/assets/eec6939c-eed3-4bea-a707-4c2fcbb135b9)
+
+This is Python code, if you would like to read and know more about Boto3, you can go to 
+www.boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sns.html
+
+After adding SNS arn > click Deploy > after Add trigger > select CloudWatch Events > Create a new role > give a meaningful name ec2-stop > 
+click Event pattern(to get notification as soon as an instance stops) > EC2 > EC2 instance state-change notification > Detail > Instances and State > stopped > get ec2-instance ID and add it >  click Add in the end
+
+Whenever event happens it will trigger ec2-stop Lambda function
+Now we can go to Ec2-instance and stop it, after couple of seconds, when instance stops it will trigger email notification for me
+We have received a notification. 
+
 6) Scroll up, click the add trigger function and add CloudWatch Event > Create a new rule > Rule name > Event pattern > EC2 > EC2 instance
    state-change notification > Detail > State > Instance > stopped > Add instance ID > click Add, to this ouput:
 <img width="812" alt="seventh" src="https://github.com/user-attachments/assets/ef69ba3d-3895-4057-bae8-0d151afe8726" />
