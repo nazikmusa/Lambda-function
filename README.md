@@ -36,6 +36,7 @@ Click ec2-stop Lambda function, scroll down and copy paste these code. Go back t
 to get a notification in case your instance stops:
 
 import boto3
+
 client = boto3.client('sns')
 
 def lambda_handler(event, context):
