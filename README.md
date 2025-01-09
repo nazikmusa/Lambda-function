@@ -37,11 +37,11 @@ to get a notification in case your instance stops:
 
 import boto3   
 client = boto3.client('sns')  
-def lambda_handler(event, context):   
-    Instance_id = event['detail']['instance-id'] 
-    topic_arn = 'arn_of_sns_alerts'  
-    message = 'your server ' + Instance_id + 'is down' 
-    client.publish(TopicArn=topic_arn,Message=message)
+def   lambda_handler(event, context):   
+      Instance_id = event['detail']['instance-id'] 
+      topic_arn = 'arn_of_sns_alerts'  
+      message = 'your server ' + Instance_id + 'is down' 
+      client.publish(TopicArn=topic_arn,Message=message)
 
 
 6) Scroll up, click the add trigger function and add CloudWatch Event > Create a new rule > Rule name > Event pattern > EC2 > EC2 instance
