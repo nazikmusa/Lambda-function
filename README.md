@@ -74,6 +74,11 @@ We have received a notification.
    
 <img width="812" alt="eight" src="https://github.com/user-attachments/assets/40fb3580-36a9-4502-ba81-48ec5491878f" />
 
+8) In the end you can go to CloudWatch > open Log groups > /aws/lambda/SNS > and see all the Logs of your instance
+![Screen Shot 2025-01-09 at 12 49 56 PM](https://github.com/user-attachments/assets/af8d0fae-91cc-45d9-b592-f6bce98d458e)
+![Screen Shot 2025-01-09 at 12 50 29 PM](https://github.com/user-attachments/assets/8cb08a11-ae14-4a10-a5ff-ea92e43f7851)
+
+   
 
 
    
