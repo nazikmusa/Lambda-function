@@ -54,7 +54,7 @@ In my case it looks like this
 ![Screen Shot 2025-01-09 at 12 26 23 PM](https://github.com/user-attachments/assets/eec6939c-eed3-4bea-a707-4c2fcbb135b9)
 
 This is Python code, if you would like to read and know more about Boto3, you can go to 
-www.boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sns.html
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sns.html#sns
 
 After adding SNS arn > click Deploy > after Add trigger > select CloudWatch Events > Create a new role > give a meaningful name ec2-stop > 
 click Event pattern(to get notification as soon as an instance stops) > EC2 > EC2 instance state-change notification > Detail > Instances and State > stopped > get ec2-instance ID and add it >  click Add in the end
