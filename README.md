@@ -78,7 +78,9 @@ We have received a notification.
 ![Screen Shot 2025-01-09 at 12 49 56 PM](https://github.com/user-attachments/assets/af8d0fae-91cc-45d9-b592-f6bce98d458e)
 ![Screen Shot 2025-01-09 at 12 50 29 PM](https://github.com/user-attachments/assets/8cb08a11-ae14-4a10-a5ff-ea92e43f7851)
 
-   
+   References:
+   You can watch on youtube this project:
+   https://www.youtube.com/watch?v=PrW6yZxtKx8
 
 
    
